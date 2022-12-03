@@ -23,13 +23,14 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
-5. run project on dev mode
+5. Rename the **_env.template_** to **_.env_**
+6. run project on dev mode
 
 ```
 yarn start:dev
 ```
 
-5. Rebuild database with seed
+7. Rebuild database with seed:
 
 ```
 http://localhost:3000/api/v2/seed
