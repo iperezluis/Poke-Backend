@@ -22,6 +22,7 @@ export class PokemonService {
     private readonly pokemonModel: Model<Pokemon>,
     private readonly configService: ConfigService,
   ) {
+    //aqui nos traemos el defaultLimit de las variables de entorno
     this.defaultLimit = configService.get<number>('defaultLimit');
   }
 
